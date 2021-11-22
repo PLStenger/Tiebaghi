@@ -26,6 +26,8 @@ First, open your terminal. Then, run these two command lines :
     time nohup bash 000_run_all_pipeline_in_one_script.sh &> 000_run_all_pipeline_in_one_script.out
   
     time nohup bash 00_quality_check_by_FastQC.sh &> 00_quality_check_by_FastQC.out
-    >
+    >real	18m10,951s
+    >user	29m29,521s
+    >sys	1m23,992s
 
 </details> 
