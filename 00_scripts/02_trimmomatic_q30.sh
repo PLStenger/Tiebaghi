@@ -4,8 +4,8 @@
 # trimmomatic manual : http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf
 
 # pathways in cluster:
-DATADIRECTORY_ITS=/scratch_vol1/fungi/Tiebaghi/02_pooled_data/ITS
-DATADIRECTORY_16S=/scratch_vol1/fungi/Tiebaghi/02_pooled_data/16S
+DATADIRECTORY_ITS=/scratch_vol1/fungi/Tiebaghi/01_raw_data/ITS
+DATADIRECTORY_16S=/scratch_vol1/fungi/Tiebaghi/01_raw_data/16S
 DATAOUTPUT_ITS=/scratch_vol1/fungi/Tiebaghi/03_cleaned_data/DATAOUTPUT_ITS
 DATAOUTPUT_16S=/scratch_vol1/fungi/Tiebaghi/03_cleaned_data/DATAOUTPUT_16S
 
