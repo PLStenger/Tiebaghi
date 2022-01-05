@@ -47,17 +47,17 @@ multiqc $OUT_PUT_ITS
 conda deactivate multiqc
 conda activate fastqc
 
-cd $DATA_DIRECTORY_16S
-
+#cd $DATA_DIRECTORY_16S
+#
 # For 16S
-for FILE in $(ls $DATA_DIRECTORY_16S/*.fastq.gz)
-do
-      fastqc $FILE -o $OUT_PUT_16S
-done ;
-
-conda deactivate fastqc
-conda activate multiqc
+#for FILE in $(ls $DATA_DIRECTORY_16S/*.fastq.gz)
+#do
+#      fastqc $FILE -o $OUT_PUT_16S
+#done ;
+#
+#conda deactivate fastqc
+#conda activate multiqc
 
 # Run multiqc for quality summary
 
-multiqc $OUT_PUT_16S
+#multiqc $OUT_PUT_16S
