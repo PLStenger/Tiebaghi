@@ -67,7 +67,7 @@ echo $TMPDIR
 
 qiime tools import --type 'FeatureData[Taxonomy]' \
   --input-format HeaderlessTSVTaxonomyFormat \
-  --input-path /scratch_vol1/fungi/Tiebaghi/98_database_files/ITS/sh_taxonomy_qiime_ver8_dynamic_s_10.05.2021.txt \
+  --input-path /scratch_vol1/fungi/Pycnandra/98_database_files/ITS/sh_taxonomy_qiime_ver8_dynamic_s_10.05.2021.txt \
   --output-path taxonomy/RefTaxo.qza
 
 # You will need to importe the "Sequence-UNITE-V7-S-2017.12.01-dynamic.fasta" file by yourself because it's to big for beeing upload by GitHub.
@@ -76,7 +76,7 @@ qiime tools import --type 'FeatureData[Taxonomy]' \
 # OLD = /scratch_vol1/fungi/Diversity_in_Mare_yam_crop/98_database_files/ITS2/Sequence-UNITE-V7-S-2017.12.01-dynamic.fasta
 
 qiime tools import --type 'FeatureData[Sequence]' \
-  --input-path /scratch_vol1/fungi/Tiebaghi/98_database_files/ITS/sh_refs_qiime_ver8_dynamic_s_10.05.2021.fasta \
+  --input-path /scratch_vol1/fungi/Pycnandra/98_database_files/ITS/sh_refs_qiime_ver8_dynamic_s_10.05.2021.fasta \
   --output-path taxonomy/DataSeq.qza
 
 # Fungal ITS classifiers trained on the UNITE reference database do NOT benefit
