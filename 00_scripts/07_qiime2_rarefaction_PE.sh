@@ -33,7 +33,7 @@ conda activate qiime2-2021.4
 qiime diversity alpha-rarefaction \
   --i-table core/ConTable.qza \
   --i-phylogeny tree/rooted-tree.qza \
-  --p-max-depth 41655 \
+  --p-max-depth 66601 \
   --p-min-depth 1 \
   --m-metadata-file $METADATA_ITS/sample-metadata.tsv \
   --o-visualization visual/alpha-rarefaction.qzv
@@ -82,7 +82,7 @@ conda activate qiime2-2021.4
 qiime diversity alpha-rarefaction \
   --i-table core/ConTable.qza \
   --i-phylogeny tree/rooted-tree.qza \
-  --p-max-depth 9972 \
+  --p-max-depth 16353 \
   --p-min-depth 1 \
   --m-metadata-file $METADATA_16S/sample-metadata.tsv \
   --o-visualization visual/alpha-rarefaction.qzv
